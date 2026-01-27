@@ -1,0 +1,35 @@
+[[S5]]
+=== S.5 Prioritization
+
+[role="pegs"]
+NOTE: Ranking of requirements by importance and stability (MoSCoW method).
+
+To ensure the delivery of a functional security module within the project timeline (see P.3), the system functions are prioritized as follows:
+
+[[s5-must]]
+^`S.5.{counter:s5}`^ **Must Have (Critical)** +
+These features are non-negotiable. The system is useless without them.
+**Intrusion Detection:** Reliable reading of sensor states (Motion/Contact).
+**Local Alarm:** Triggering the siren upon confirmed intrusion.
+**Arming/Disarming Logic:** The state machine (Armed/Disarmed) must work flawlessly with PIN validation.
+
+[[s5-should]]
+^`S.5.{counter:s5}`^ **Should Have (Important)** +
+These features are highly desirable and should be included if no major blockers occur. +
+**Remote Notification:** Sending alerts to the user's phone via simulated network call. +
+**Entry/Exit Delays:** Managing the timers to allow user exit/entry without false alarms. +
+**Event Logging:** Storing the history of alarms and arming actions.
+
+[[s5-could]]
+^`S.5.{counter:s5}`^ **Could Have (Optional)** +
+These features are "nice to have" and will only be implemented if time permits (Phase 4). +
+**Panic Button:** Manual trigger of the alarm. +
+**Partial Arming:** Ability to arm only the perimeter (windows) while staying inside. +
+**Battery Backup Status:** Monitoring the power supply state.
+
+[[s5-wont]]
+^`S.5.{counter:s5}`^ **Won't Have (Out of Scope)** +
+These features are explicitly excluded for this version of the project to manage complexity. +
+**Video Surveillance:** No video stream processing or recording. +
+**Biometric Authentication:** No fingerprint or face ID; only PIN codes are used. +
+**Police Interconnection:** No automated dialing of real emergency services.
