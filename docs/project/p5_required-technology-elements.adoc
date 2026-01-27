@@ -1,0 +1,30 @@
+[[P5]]
+=== P.5 Required technology elements
+
+[role="pegs"]
+Hardware and software resources available or to be acquired.
+
+[cols="1,3", options="header"]
+|===
+|Resource Category |Description & Requirements
+
+|**Modeling Environment**
+|**Eclipse Papyrus**
+The core tool for the project. It requires a standard Eclipse installation (Modeling Tools package recommended) with the Papyrus plugin (version tailored to SysML 1.4/1.6).
+
+|**Development Kit**
+|**Java JDK (version 11 or higher)**
+Required to run Eclipse and to implement any software components or simulations related to the OSGi framework.
+
+|**Documentation**
+|**AsciiDoctor**
+The toolchain used to render these `.adoc` files into the final PDF or HTML report.
+
+|**Version Control**
+|**Git**
+A Git client (command line or GUI like GitKraken/SourceTree) to manage model versions and collaborative work on the Papyrus files.
+
+|**Target Hardware (Emulated)**
+|**SHS Gateway Emulator**
+Since physical hardware (ZigBee sensors, physical siren) might not be available, the project will rely on software emulation of the Residential Gateway and its peripherals within the Java/OSGi environment.
+|===
