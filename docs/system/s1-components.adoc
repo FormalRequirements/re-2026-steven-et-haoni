@@ -1,0 +1,27 @@
+[[S1]]
+=== S.1 System components
+
+[role="pegs"]
+NOTE: Decomposition of the system into components; hierarchy of components.
+
+The Smart Home Security System (SHS) is structured around a central processing unit and distributed peripheral devices. The main components identified for the security module are:
+
+[[s1-controller]]
+^`S.1.{counter:s1}`^ **Security Controller (Residential Gateway)** +
+The core logic component running on the OSGi framework. It is responsible for aggregation of sensor data, execution of the state machine logic (Armed/Disarmed/Alarm), and triggering alerts. It acts as the brain of the security system.
+
+[[s1-sensors]]
+^`S.1.{counter:s1}`^ **Intrusion Sensors** +
+A set of wireless devices responsible for detecting unauthorized presence. This includes **Motion Detectors** (PIR sensors) placed in key rooms and **Magnetic Contact Sensors** installed on doors and windows to detect opening.
+
+[[s1-actuators]]
+^`S.1.{counter:s1}`^ **Alarm Actuators** +
+The output devices used to signal a security breach. This includes an **Indoor Siren** (audio alert) to deter intruders and warn residents, and potentially a **Strobe Light** (visual alert) for external signaling.
+
+[[s1-hmi]]
+^`S.1.{counter:s1}`^ **Security Control Panel (HMI)** +
+The interface allowing the user to interact with the system. It enables the user to **Arm** (activate) or **Disarm** (deactivate) the monitoring, and to view the current system status (e.g., "Ready", "Breach Detected").
+
+[[s1-comms]]
+^`S.1.{counter:s1}`^ **Communication Interface** +
+The subsystem handling network protocols. It manages the local wireless communication (ZigBee/EnOcean simulation) with sensors and the external Internet connection to send notifications to the user's smartphone or emergency services.
