@@ -2,29 +2,26 @@
 === P.5 Required technology elements
 
 [role="pegs"]
-NOTE : Hardware and software resources available or to be acquired.
+NOTE: Hardware and software resources available or to be acquired.
 
-[cols="1,3", options="header"]
-|===
-|Resource Category |Description & Requirements
+The project requires the following specific hardware and software resources to ensure successful modeling, development, and documentation:
 
-|**Modeling Environment**
-|**Eclipse Papyrus**
-The core tool for the project. It requires a standard Eclipse installation (Modeling Tools package recommended) with the Papyrus plugin (version tailored to SysML 1.4/1.6).
+[[p5-env]]
+^`P.5.{counter:p5}`^ **Modeling Environment** +
+The core tool for the project is **Eclipse Papyrus**. A standard Eclipse installation (Modeling Tools package recommended) is required, with the Papyrus plugin installed (version tailored to SysML 1.4/1.6) to create and validate the system models.
 
-|**Development Kit**
-|**Java JDK (version 11 or higher)**
-Required to run Eclipse and to implement any software components or simulations related to the OSGi framework.
+[[p5-jdk]]
+^`P.5.{counter:p5}`^ **Development Kit** +
+**Java JDK (version 11 or higher)** is required. It is necessary to run the Eclipse platform and to implement any software components or simulations related to the OSGi framework used by the gateway.
 
-|**Documentation**
-|**AsciiDoctor**
-The toolchain used to render these `.adoc` files into the final PDF or HTML report.
+[[p5-doc]]
+^`P.5.{counter:p5}`^ **Documentation Tools** +
+The **AsciiDoctor** toolchain is required to render these `.adoc` files into the final PDF or HTML report. This includes the necessary Ruby gems or the VS Code extension for live preview.
 
-|**Version Control**
-|**Git**
-A Git client (command line or GUI like GitKraken/SourceTree) to manage model versions and collaborative work on the Papyrus files.
+[[p5-git]]
+^`P.5.{counter:p5}`^ **Version Control** +
+A **Git client** (command line or GUI like GitKraken/SourceTree) is essential to manage model versions, handle the `.project` files, and facilitate collaborative work on the Papyrus models.
 
-|**Target Hardware (Emulated)**
-|**SHS Gateway Emulator**
-Since physical hardware (ZigBee sensors, physical siren) might not be available, the project will rely on software emulation of the Residential Gateway and its peripherals within the Java/OSGi environment.
-|===
+[[p5-emu]]
+^`P.5.{counter:p5}`^ **Target Hardware Emulation** +
+Since physical hardware (ZigBee sensors, physical siren) might not be immediately available for all developers, the project will rely on a **SHS Gateway Emulator**. This software emulation mimics the behavior of the Residential Gateway and its peripherals within the Java/OSGi environment.

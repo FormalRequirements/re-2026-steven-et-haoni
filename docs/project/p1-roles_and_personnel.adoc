@@ -2,7 +2,7 @@
 === P.1 Roles and personnel
 
 [role="pegs"]
-NOTE : Main responsibilities in the project; required project staff and their needed qualifications (see Handbook).
+NOTE: Main responsibilities in the project; required project staff and their needed qualifications (see Handbook).
 
 [cols="1,2", options="header"]
 |===

@@ -2,7 +2,7 @@
 === P.6 Risk and mitigation analysis
 
 [role="pegs"]
-NOTE : Risks associated with the project; probability and severity; planned mitigation strategies.
+NOTE: Risks associated with the project; probability and severity; planned mitigation strategies.
 
 [cols="2,1,4", options="header"]
 |===

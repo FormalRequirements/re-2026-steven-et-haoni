@@ -2,7 +2,7 @@
 === P.4 Tasks and deliverables
 
 [role="pegs"]
-NOTE : Work packages to be performed; deliverables (documents, models, software) to be handed over.
+NOTE: Work packages to be performed; deliverables (documents, models, software) to be handed over.
 
 [cols="1,3", options="header"]
 |===
