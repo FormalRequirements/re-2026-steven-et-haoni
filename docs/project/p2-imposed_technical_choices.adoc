@@ -2,7 +2,7 @@
 === P.2 Imposed technical choices
 
 [role="pegs"]
-Hardware and software platform, system software and tools, programming languages.
+NOTE : Hardware and software platform, system software and tools, programming languages.
 
 [cols="1,2", options="header"]
 |===

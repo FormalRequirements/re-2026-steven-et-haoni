@@ -2,7 +2,7 @@
 === P.3 Schedule and milestones
 
 [role="pegs"]
-Project phases and milestones; deadline for the final report.
+NOTE : Project phases and milestones; deadline for the final report.
 
 [cols="1,4", options="header"]
 |===
