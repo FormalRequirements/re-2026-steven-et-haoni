@@ -2,6 +2,6 @@
 == Project
 
 [role="pegs"]
-Project organization, roles, planning, and technical context.
+NOTE: Project organization, roles, planning, and technical context.
 
-NOTE: This part defines the organizational framework for the **Smart Home Security System (SHS)** project. It details the team responsibilities, the imposed technical environment (SysML, Papyrus, OSGi), the schedule, and the risk management strategy.
+This part defines the organizational framework for the **Smart Home Security System (SHS)** project. It details the team responsibilities, the imposed technical environment (SysML, Papyrus, OSGi), the schedule, and the risk management strategy.
