@@ -1,0 +1,31 @@
+[[P2]]
+=== P.2 Imposed technical choices
+
+[role="pegs"]
+Hardware and software platform, system software and tools, programming languages.
+
+[cols="1,2", options="header"]
+|===
+| Category |Choice / Constraint
+
+|Modeling Language
+|**SysML (Systems Modeling Language)** version 1.4 or higher is mandatory for all system analysis and design phases.
+
+|Modeling Tool
+|**Eclipse Papyrus**. The project must be modeled using this specific IDE to ensure compatibility with the provided examples and validation tools.
+
+|Implementation Language
+|**Java**. The software components must be developed in Java to be compatible with the OSGi framework used in the residential gateway.
+
+|Software Architecture
+|**OSGi Framework**. The system must be designed as a set of modular bundles (services) that can be dynamically installed/started on the gateway.
+
+|Target Hardware
+|**Residential Gateway** (e.g., Raspberry Pi or similar compliant box). It acts as the central node managing security logic.
+
+|Peripherals & Sensors
+|**Wireless Sensors**. The security module must interact with standard home automation protocols (simulated or real interfaces for ZigBee/EnOcean) for motion detectors and door/window opening sensors.
+
+|Documentation
+|**AsciiDoc**. All requirements and reports must be written in AsciiDoc format to generate the final PDF documentation.
+|===
