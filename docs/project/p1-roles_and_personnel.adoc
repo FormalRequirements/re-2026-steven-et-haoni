@@ -1,0 +1,30 @@
+[[P1]]
+=== P.1 Roles and personnel
+
+[role="pegs"]
+Main responsibilities in the project; required project staff and their needed qualifications (see Handbook).
+
+[cols="1,2", options="header"]
+|===
+| Role | Responsibility
+
+| System Architecture Team
+| Defines the structural blocks of the Smart Home System (SHS) using SysML; establishes the perimeter of the security module.
+
+| Security Engineering Team
+| Specifies the intrusion detection logic, alarm triggering rules, and sensor behavior (motion, opening). Ensures the system meets safety standards.
+
+| Hardware Integration Team
+| Responsible for the selection and modeling of physical components: presence sensors, surveillance cameras, sirens, and the central residential gateway.
+
+| Human-Machine Interface (HMI) Team
+| Designs the control interfaces (mobile app, wall panel) allowing the user to arm/disarm the alarm and view security alerts.
+
+| Validation & Simulation Team
+| Creates usage scenarios (e.g., "Intruder detected", "False alarm") and verifies them using simulation tools to ensure the alarm triggers correctly.
+
+| Project Manager
+| Oversees the schedule (P.3), coordinates the different teams (Architecture, Security, HMI), and ensures the consistency of the requirements documentation.
+|===
+
+Some staff work part-time across teams. Additional resources (e.g., Network Security specialists for remote access) may join later.
