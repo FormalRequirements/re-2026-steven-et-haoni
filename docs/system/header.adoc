@@ -1,0 +1,7 @@
+[[System]]
+== System
+
+[role="pegs"]
+NOTE: Structure and behavior of the system; what the system does; logical and physical architecture.
+
+This section defines the **functional and structural solution** for the Smart Home Security System (SHS). It translates the user goals into technical specifications, detailing the system decomposition, its interfaces, its behavior during intrusion scenarios, and the validation criteria.
