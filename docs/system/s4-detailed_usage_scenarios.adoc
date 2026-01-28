@@ -1,0 +1,39 @@
+[[S4]]
+=== S.4 Detailed usage scenarios
+
+[role="pegs"]
+NOTE: Step-by-step description of how the system is used in specific situations (Nominal and Alternative paths).
+
+The following scenarios describe the dynamic behavior of the Security System from the user's and the system's perspective. They cover standard operations and critical security events.
+
+[[s4-arming]]
+^`S.4.{counter:s4}`^ **Nominal Scenario: Arming the System (Departure)** +
+1. The user ensures all doors and windows are closed (sensors are in "Closed" state). +
+2. The user enters the valid PIN code on the Control Panel and presses "Arm". +
+3. The system validates the PIN and initiates the **Exit Delay** (e.g., 30 seconds).
+4. The user leaves the house and closes the main door. +
+5. Once the delay expires, the system transitions to the **Armed** state. All sensors become active.
+
+[[s4-intrusion]]
+^`S.4.{counter:s4}`^ **Critical Scenario: Intrusion Detection** +
+1. The system is in the **Armed** state. +
+2. An intruder forces a window open (Magnetic Contact break) or moves in the living room (Motion Sensor trigger). +
+3. The system detects the sensor signal change. +
+4. The system checks the zone type:
+   * If **Instant Zone** (Window): The alarm triggers immediately.
+   * If **Delayed Zone** (Main Door): The Entry Delay timer starts. +
+5. Assuming an immediate intrusion: The **Indoor Siren** is activated, and a "Breach Alert" notification is sent to the remote user.
+
+[[s4-disarming]]
+^`S.4.{counter:s4}`^ **Nominal Scenario: Disarming (Return)** +
+1. The user unlocks and opens the main entry door. +
+2. The system detects the door opening and starts the **Entry Delay** (e.g., 30 seconds). It emits a low-volume warning beep. +
+3. The user enters the valid PIN code on the panel before the timer expires. +
+4. The system validates the code, stops the timer, and transitions to the **Disarmed** state. +
+5. The siren does *not* trigger.
+
+[[s4-panic]]
+^`S.4.{counter:s4}`^ **Alternative Scenario: Panic Button** +
+1. The user feels threatened while inside the house (regardless of whether the system is Armed or Disarmed). +
+2. The user presses the physical or digital "Panic" button on the interface. +
+3. The system **immediately** triggers the siren at full volume and sends a high-priority alert to emergency contacts.

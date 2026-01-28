@@ -1,0 +1,32 @@
+[[S6]]
+=== S.6 Verification and acceptance criteria
+
+[role="pegs"]
+NOTE: Tests and reviews to perform to validate that the system meets the requirements.
+
+The validation of the Security Module will be performed through model simulation (using Papyrus Moka or internal Java simulation) and code reviews. The system is accepted if it passes the following specific tests:
+
+[[s6-sim-intrusion]]
+^`S.6.{counter:s6}`^ **Intrusion Simulation Test** +
+**Procedure:** In the simulation environment, set the system to "Armed" state and forcefully toggle a Motion Sensor input from 0 to 1. +
+**Acceptance Criteria:** The system state must transition to "Triggered" immediately (or after delay), and the console/log must show "Siren ACTIVATED".
+
+[[s6-access-control]]
+^`S.6.{counter:s6}`^ **Access Control Verification** +
+**Procedure:** Attempt to disarm the system using an invalid PIN (e.g., "0000") and then a valid PIN (e.g., "1234"). +
+**Acceptance Criteria:** The system must remain in "Armed" state with the invalid PIN and transition to "Disarmed" **only** with the correct PIN.
+
+[[s6-timing]]
+^`S.6.{counter:s6}`^ **Timing Logic Verification** +
+**Procedure:** Trigger an entry door sensor while Armed. Wait for 15 seconds (within delay), then wait for 40 seconds (exceeding delay). +
+**Acceptance Criteria:** The alarm must **not** sound at 15s. The alarm **must** sound at 30s+ if no PIN is entered.
+
+[[s6-safety-interlock]]
+^`S.6.{counter:s6}`^ **Arming Safety Check** +
+**Procedure:** Attempt to arm the system while a window sensor is explicitly set to "Open". +
+**Acceptance Criteria:** The system should reject the arming request or display a "Zone Open" warning. It must not arm blindly if the perimeter is breached.
+
+[[s6-traceability]]
+^`S.6.{counter:s6}`^ **Traceability Audit** +
+**Procedure:** Review the Papyrus model structure. +
+**Acceptance Criteria:** Every requirement in the `<<Requirement>>` diagram must be linked to at least one Use Case or Block via a `<<satisfy>>` or `<<verify>>` relationship. No "orphan" requirements allowed.

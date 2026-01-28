@@ -1,0 +1,37 @@
+[[S2]]
+=== S.2 System functions
+
+[role="pegs"]
+NOTE: Functional requirements; what the system does from a technical perspective.
+
+The Security Module of the Smart Home System must perform the following critical functions to ensure the safety of the residence and its inhabitants:
+
+[[s2-arm]]
+^`S.2.{counter:s2}`^ **Arming and Disarming** +
+The system shall allow authenticated users to change the security state. Users must be able to **Arm** the system (activate surveillance) when leaving or sleeping, and **Disarm** it upon return. This function requires a secure authentication method (PIN code or digital key).
+
+[[s2-detect]]
+^`S.2.{counter:s2}`^ **Intrusion Detection** +
+When the system is in the "Armed" state, it shall continuously monitor data from motion sensors and magnetic contacts. Any change in sensor state (e.g., "Motion Detected" or "Window Open") must be interpreted as a potential intrusion.
+
+[[s2-delay]]
+^`S.2.{counter:s2}`^ **Entry/Exit Delay Management** +
+To prevent false alarms by authorized users, the system shall implement a configurable time delay (e.g., 30 seconds). +
+**Exit Delay:** Time allowed to leave the house after arming. +
+**Entry Delay:** Time allowed to disarm the system after opening the main door.
+
+[[s2-alarm]]
+^`S.2.{counter:s2}`^ **Local Alarm Triggering** +
+Upon confirmed intrusion (after the delay expires without valid disarming), the system shall immediately activate the **Indoor Siren** and visual indicators to deter the intruder and alert neighbors.
+
+[[s2-notify]]
+^`S.2.{counter:s2}`^ **Remote Notification** +
+Simultaneously with the local alarm, the system shall send a **Remote Alert** (via SMS, Push Notification, or API call) to the registered user's smartphone and/or a remote monitoring service.
+
+[[s2-panic]]
+^`S.2.{counter:s2}`^ **Panic Mode** +
+The system shall provide a "Panic" function. When manually activated by the user (via a specific button on the HMI), the alarm and notifications shall trigger immediately, regardless of whether the system was armed or disarmed.
+
+[[s2-log]]
+^`S.2.{counter:s2}`^ **Event Logging** +
+The system shall record all security-related events (Arming, Disarming, Sensor Trigger, Alarm Activation) with a timestamp in a local log file for post-incident analysis.

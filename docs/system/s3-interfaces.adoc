@@ -1,0 +1,27 @@
+[[S3]]
+=== S.3 System interfaces
+
+[role="pegs"]
+NOTE: External interfaces (user, hardware, software, communication); internal interfaces between components.
+
+The Security System interacts with its environment through specific physical and logical interfaces. These interfaces define how data and commands enter and leave the system.
+
+[[s3-user]]
+^`S.3.{counter:s3}`^ **User Control Interface (HMI)** +
+The system must provide a **Graphical User Interface (GUI)** accessible via a touch panel or a simulated mobile application. This interface allows the user to input the PIN code, visualize the system state (Armed/Disarmed), and acknowledge alerts. It communicates with the core logic via internal OSGi events.
+
+[[s3-sensor-proto]]
+^`S.3.{counter:s3}`^ **Sensor Communication Protocol** +
+The system interfaces with physical or simulated sensors (Motion, Contact) using a standard home automation protocol (abstraction of **ZigBee** or **EnOcean**). The interface must handle binary signals (Open/Closed, Motion/No-Motion) and report signal loss (keep-alive check).
+
+[[s3-actuator-if]]
+^`S.3.{counter:s3}`^ **Actuator Control Interface** +
+The system controls the **Indoor Siren** through a dedicated output interface (GPIO or Relay Control). The interface must be capable of switching the high-voltage circuit of the siren ON and OFF with minimal latency (< 1 second).
+
+[[s3-network]]
+^`S.3.{counter:s3}`^ **External Network Interface (WAN)** +
+To send remote notifications, the system utilizes the Residential Gateway's TCP/IP stack (Ethernet or Wi-Fi). This interface connects to the Internet to dispatch **SMS** (via an API gateway) or **Push Notifications** to the user's remote device.
+
+[[s3-power]]
+^`S.3.{counter:s3}`^ **Power Supply Interface** +
+The security module relies on the main power supply (220V AC) of the Gateway. However, it must interface with a **Backup Battery System** status line to detect power outages and switch to "Low Power Mode" while maintaining intrusion detection active.
