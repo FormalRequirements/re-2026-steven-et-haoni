@@ -69,7 +69,7 @@ Ce que ce script fait :
 - Génère les fichiers .adoc et .pdf dans le dossier de sorti `out/`
 
 
-## CI
+## Continuous Integration
 
 Il est possible de lancer le Workflow "Generate Final Document" dans les Actions Git :
 
