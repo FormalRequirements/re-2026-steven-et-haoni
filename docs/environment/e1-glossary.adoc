@@ -1,68 +1,68 @@
 [[E1]]
 === E.1 Glossary
 
-NOTE: Clear and precise definitions of all the vocabulary specific to the application domain, including technical terms, words from ordinary language used in a special meaning, and acronyms (see {Handbook}).
+NOTE: Clear and precise definitions of all the vocabulary specific to the application
+domain, including technical terms, words from ordinary language used in a special
+meaning, and acronyms (see {Handbook}).
 
-WARNING: This chapter should not be empty (following the Glossary Principle, p.27 of the {handbook}).
-
-
-
-
-- SHS (Smart Home System): Software and hardware system responsible for managing, monitoring, and assisting the smart environment.
-
-- Bed: Physical element of the domestic environment, not part of the SHS, but potentially interacting indirectly with it.
-
-- Local standards: Set of applicable rules and regulations defining the technical and legal constraints of the building.
-
-
-
-- MI (Smart Home): Domestic environment integrating intelligent systems interacting with physical elements.
-
-- Adaptable furniture: Furniture capable of changing its configuration to meet the specific needs of the user.
-
-- User profile: Set of characteristics related to the user’s physical, sensory, and cognitive abilities.
-
-- Adaptable bed: Furniture element capable of adjusting automatically or manually to the user’s needs.
+WARNING: This chapter should not be empty (following the Glossary Principle, p.27 of
+the {handbook}).
 
 
 //---- Term
 [[e1-shs]]
 ^`E.1.{counter:e1}`^  
-**SHS (Smart Home System)** :: Software and hardware system responsible for managing, monitoring, and assisting the smart environment.
+**SHS (Smart Home System)** :: Software and hardware system responsible for managing,
+monitoring, and assisting the smart domestic environment, including security,
+safety, and assistance functions.
 //----
+
 
 //---- Term
 [[e1-mi]]
 ^`E.1.{counter:e1}`^  
-**MI (Smart Home)** :: Domestic environment integrating intelligent systems interacting with physical elements.
+**MI (Smart Home)** :: Domestic environment integrating intelligent systems that
+interact with physical elements of the dwelling.
 //----
+
 
 //---- Term
 [[e1-bed]]
 ^`E.1.{counter:e1}`^  
-**Bed** :: Physical element of the domestic environment, not part of the SHS, but potentially interacting indirectly with it.
+**Bed** :: Physical element of the domestic environment, not part of the SHS, but
+potentially interacting indirectly with it through sensors or actuators.
 //----
+
 
 //---- Term
 [[e1-adaptable-furniture]]
 ^`E.1.{counter:e1}`^  
-**Adaptable furniture** :: Furniture capable of changing its configuration to meet the specific needs of the user.
+**Adaptable furniture** :: Furniture capable of changing its configuration to meet
+the specific physical or ergonomic needs of the user.
 //----
+
 
 //---- Term
 [[e1-adaptable-bed]]
 ^`E.1.{counter:e1}`^  
-**Adaptable bed** :: Furniture element capable of adjusting automatically or manually to the user’s needs.
+**Adaptable bed** :: Furniture element capable of adjusting automatically or manually
+to the user’s needs, particularly in the context of reduced mobility or disability.
 //----
+
 
 //---- Term
 [[e1-user-profile]]
 ^`E.1.{counter:e1}`^  
-**User profile** :: Set of characteristics related to the user’s physical, sensory, and cognitive abilities.
+**User profile** :: Set of characteristics describing a user’s physical, sensory,
+and cognitive abilities, preferences, and constraints, used by the SHS to adapt its
+behavior.
 //----
+
 
 //---- Term
 [[e1-standards]]
 ^`E.1.{counter:e1}`^  
-**Local standards** :: Set of applicable rules and regulations defining the technical and legal constraints of the building.
+**Local standards** :: Set of applicable legal, technical, and regulatory rules
+defining constraints related to safety, security, data protection, and building
+compliance.
 //----

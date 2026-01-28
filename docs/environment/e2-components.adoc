@@ -1,40 +1,54 @@
 [[E2]]
 === E.2 Components
 
-NOTE: List of elements of the environment that may affect or be affected by the system and project. Includes other systems to which the system must be interfaced (see {Handbook}).
+NOTE: List of elements of the environment that may affect or be affected by the
+system and project. This includes actors and physical components external to the
+Smart Home System (SHS) with which it may interact (see {Handbook}).
 
-* **Occupants:** Primary users defined by their `User profile`.
-* **Emergency Services:** Police, Firefighters, and Medical services (SAMU).
-* **Intruders:** Non-authorized persons attempting to access the `MI`.
+The environment of the Smart Home System includes human actors and physical
+elements that are not part of the SHS itself but influence its behavior or are
+affected by its operation. Interactions with these elements occur indirectly,
+through sensors, actuators, or information exchanges.
 
-The system environment includes external physical elements, such as the bed, which are not part of the SHS but influence its operation. The SHS interacts with these elements only indirectly, through sensors or contextual information.
 
-The MI environment includes a set of adaptable and removable furniture elements, including the bed, which are physical components external to the intelligent system. These components are designed to interact with the MI in order to adapt to the user’s profile and specific needs.
+//// Human actors
 
 //---- Component
 [[e2-occupants]]
 ^`E.2.{counter:e2}`^  
-**Occupants** :: Primary users of the Smart Home. Their interactions and needs are characterized by their `User profile` (E.1).
-//----
+**Occupants** :: Primary users of the Smart Home. Their interactions, needs, and
+constraints are characterized by their `User profile` (E.1).
+////
+
 
 //---- Component
 [[e2-emergency-services]]
 ^`E.2.{counter:e2}`^  
-**Emergency Services** :: External organizations including Police, Firefighters, and Medical services (SAMU) that require access or information in critical situations.
-//----
+**Emergency Services** :: External organizations including police, firefighters,
+and medical services (SAMU) that may be notified or granted access in critical
+situations.
+////
+
 
 //---- Component
 [[e2-intruders]]
 ^`E.2.{counter:e2}`^  
-**Intruders** :: Non-authorized persons whose presence or actions must be detected and countered by the system to ensure security.
-//----
+**Intruders** :: Non-authorized persons whose presence or actions must be detected
+and countered by the system to ensure the security of the dwelling.
+////
+
+
+//// Physical environment elements
 
 //---- Component
 [[e2-external-furniture]]
 ^`E.2.{counter:e2}`^  
-**External Furniture** :: Physical elements like the `Bed` (E.1) or `Adaptable furniture`. These are not part of the SHS software/hardware logic but are monitored or triggered by it.
-//----
+**External Furniture** :: Physical elements such as the `Bed` or other
+`Adaptable furniture` (E.1). These elements are not part of the SHS hardware or
+software but may interact with it indirectly through sensors or control interfaces.
+////
 
-The system environment includes external physical elements, such as the bed, which are not part of the SHS but influence its operation. The SHS interacts with these elements only indirectly, through sensors or contextual information.
-
-The MIB environment includes a set of adaptable and removable furniture elements, including the bed, which are physical components external to the intelligent system. These components are designed to interact with the MI in order to adapt to the user’s profile and specific needs.
+The MI environment includes a set of adaptable and removable furniture elements
+that are part of the physical dwelling. These components are external to the SHS
+but are designed to interact with the smart environment in order to adapt to the
+user’s profile and specific needs.

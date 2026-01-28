@@ -1,35 +1,49 @@
 [[E3]]
 === E.3 Constraints
 
-NOTE: Obligations and limits imposed on the project and system by the environment (see {Handbook}).
+NOTE: Obligations and limits imposed on the project and system by the environment
+(see {Handbook}).
 
-WARNING: This chapter should not be empty (following the Minimum Requirements Outcome Principle, p.27 of the {handbook}).
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome
+Principle_, p.27 of the {handbook}).
 
-[[e-sec-01]]
-* **E.SEC.01** – The dwelling is subject to applicable regulations (fire safety, GDPR).
-[[e-sec-02]]
-* **E.SEC.02** – Physical equipment (like the `Adaptable bed`) must be powered and operational for the SHS to fulfill its functions.
+The operation of the Smart Home System (SHS) is constrained by regulatory,
+infrastructural, and physical characteristics of the environment in which it is
+deployed. These constraints impact the installation, configuration, and use of
+environmental components but are not implemented by the SHS itself.
 
----
-
-The system operation is constrained by local standards and the characteristics of the building in which it is deployed. These constraints may impact the installation, configuration, and usage of environmental components.
-
-The MI furniture must comply with accessibility, ergonomics, and building standards. The adaptation mechanisms of the bed and furniture must allow use without excessive physical effort, regardless of the user’s disability.
 
 //---- Constraint
-[[e3-regulations]]
+[[e3-regulatory-compliance]]
 ^`E.3.{counter:e3}`^  
-**Regulatory Compliance** :: The SHS must operate within the boundaries of `Local standards` (E.1), including GDPR for data privacy and local fire safety codes.
+**Regulatory Compliance** :: The Smart Home System must operate within the boundaries
+defined by `Local standards` (E.1), including fire safety regulations and data
+protection laws such as the GDPR.
 //----
 
-//---- Constraint
-[[e3-power-network]]
-^`E.3.{counter:e3}`^  
-**Physical Infrastructure** :: The availability of electrical and internet networks is a prerequisite for nominal system behavior, although the system must remain resilient to their failure.
-//----
 
 //---- Constraint
-[[e3-mechanical-limits]]
+[[e3-infrastructure-availability]]
 ^`E.3.{counter:e3}`^  
-**Mechanical Boundaries** :: Any movement of `Adaptable furniture` is constrained by its physical range of motion and the presence of obstacles in the `MI` (E.1).
+**Physical Infrastructure Availability** :: The availability of electrical power and
+internet connectivity is a prerequisite for nominal system behavior. These resources
+are provided by the environment and are not controlled by the SHS.
+//----
+
+
+//---- Constraint
+[[e3-furniture-compliance]]
+^`E.3.{counter:e3}`^  
+**Furniture Compliance** :: Furniture elements in the MI, including `Adaptable
+furniture` and the `Adaptable bed` (E.1), must comply with accessibility, ergonomics,
+and building standards applicable to the dwelling.
+//----
+
+
+//---- Constraint
+[[e3-mechanical-boundaries]]
+^`E.3.{counter:e3}`^  
+**Mechanical Boundaries** :: Any movement or adjustment of adaptable furniture is
+constrained by its physical range of motion and by obstacles present in the MI
+environment.
 //----
