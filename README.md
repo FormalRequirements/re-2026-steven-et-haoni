@@ -34,7 +34,7 @@ cd re-2026-steven-et-haoni
 
 2. Lancer le script d'installation des dépendances :
 ```bash
-./initialize_project.sh
+source initialize_project.sh
 ```
 
 Ce que ce script fait :
