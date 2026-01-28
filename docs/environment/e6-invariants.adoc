@@ -1,0 +1,36 @@
+[[E6]]
+=== E.6 Invariants
+
+The bed always remains an external element to the SHS and cannot be considered an internal system component. Additionally, the SHS must always comply with local standards and building constraints.
+
+Furniture, including the bed, always remains a physical element of the environment and not an internal component of the MI. Furthermore, the furniture must always be capable of adapting to the user’s profile and allowing effortless use, regardless of the user’s disability.
+
+//---- Invariant
+[[e6-bed-stability]]
+^`E.6.{counter:e6}`^  
+**Mechanical Stability** :: The `Adaptable bed` (E.1) must never reach an inclination or height that compromises its structural stability or risks tipping over.
+//----
+
+//---- Invariant
+[[e6-emergency-exit]]
+^`E.6.{counter:e6}`^  
+**Emergency Egress** :: At least one primary exit of the `MI` must remain manually operable from the inside, even in the event of a total `SHS` or power failure.
+//----
+
+//---- Invariant
+[[e6-data-isolation]]
+^`E.6.{counter:e6}`^  
+**Privacy Isolation** :: No personal data from the `User profile` (E.1) shall be accessible to the `External network` without active encryption and authorized credentials.
+//----
+
+//---- Invariant
+[[e6-no-contradiction]]
+^`E.6.{counter:e6}`^  
+**Command Consistency** :: The `SHS` shall never issue two contradictory physical commands simultaneously (e.g., "Open" and "Close" for the same motorized window).
+//----
+
+//---- Invariant
+[[e6-occupant-safety]]
+^`E.6.{counter:e6}`^  
+**Non-Harmful Motion** :: The movement of any `Adaptable furniture` (E.1) must automatically stop if a resistance or an obstacle is detected in its path.
+//----

@@ -1,0 +1,40 @@
+[[E2]]
+=== E.2 Components
+
+NOTE: List of elements of the environment that may affect or be affected by the system and project. Includes other systems to which the system must be interfaced (see {Handbook}).
+
+* **Occupants:** Primary users defined by their `User profile`.
+* **Emergency Services:** Police, Firefighters, and Medical services (SAMU).
+* **Intruders:** Non-authorized persons attempting to access the `MI`.
+
+The system environment includes external physical elements, such as the bed, which are not part of the SHS but influence its operation. The SHS interacts with these elements only indirectly, through sensors or contextual information.
+
+The MI environment includes a set of adaptable and removable furniture elements, including the bed, which are physical components external to the intelligent system. These components are designed to interact with the MI in order to adapt to the user’s profile and specific needs.
+
+//---- Component
+[[e2-occupants]]
+^`E.2.{counter:e2}`^  
+**Occupants** :: Primary users of the Smart Home. Their interactions and needs are characterized by their `User profile` (E.1).
+//----
+
+//---- Component
+[[e2-emergency-services]]
+^`E.2.{counter:e2}`^  
+**Emergency Services** :: External organizations including Police, Firefighters, and Medical services (SAMU) that require access or information in critical situations.
+//----
+
+//---- Component
+[[e2-intruders]]
+^`E.2.{counter:e2}`^  
+**Intruders** :: Non-authorized persons whose presence or actions must be detected and countered by the system to ensure security.
+//----
+
+//---- Component
+[[e2-external-furniture]]
+^`E.2.{counter:e2}`^  
+**External Furniture** :: Physical elements like the `Bed` (E.1) or `Adaptable furniture`. These are not part of the SHS software/hardware logic but are monitored or triggered by it.
+//----
+
+The system environment includes external physical elements, such as the bed, which are not part of the SHS but influence its operation. The SHS interacts with these elements only indirectly, through sensors or contextual information.
+
+The MIB environment includes a set of adaptable and removable furniture elements, including the bed, which are physical components external to the intelligent system. These components are designed to interact with the MI in order to adapt to the user’s profile and specific needs.

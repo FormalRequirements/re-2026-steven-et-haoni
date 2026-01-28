@@ -1,0 +1,13 @@
+//------------------------------------
+// ENVIRONMENT book
+//
+// Template for requirement:
+//[[ex-keyword]] 
+//`{counter:environment}`
+// Requirement
+
+// {missing} [Corresponding Artifact]
+//------------------------------------
+== Environment
+
+NOTE: The Environment book describes the application domain and external context, physical or virtual (or a mix), in which the system will operate (see {Handbook}).

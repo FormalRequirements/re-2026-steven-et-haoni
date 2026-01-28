@@ -1,0 +1,176 @@
+
+//------------------------------------
+// GOALS book
+//
+// Template for requirement:
+//---- Requirement
+//[[gx-keyword]] 
+//`{counter:gx}`
+// Requirement
+
+// {missing} [Corresponding Artifact]
+//---- 
+//------------------------------------
+
+== Goals
+
+[NOTE]
+====
+Goals are "needs of the target organization, which the system will address". 
+While the development team is the principal user of the other books, the Goals book addresses a wider audience: essentially, all stakeholders (see {Handbook}).
+
+It must contain enough information to provide â€” if read just by itself â€” a general sketch of the entire project. 
+To this effect, chapter G.3 presents a short overview of the system and <<G1,G.1>> will typically include some key properties of the environment. 
+As it addresses a wide readership, it should be clear and minimize the use of specialized technical terms. 
+Together, <<G1,G.1>>, <<G2,G.2>> and <<G3,G.3>> describe the rationale for the project. 
+It is important to state these justifications explicitly. 
+Typically, they are well understood at the start of the project, but management and priorities can change  (see {Handbook}).
+====
+
+The system aims to provide a secure, intelligent, and sustainable environment capable of protecting information systems, assisting occupants in their daily activities, and optimizing energy consumption while prioritizing renewable energy sources.
+
+The Smart Home (MI) aims to provide a safe, adaptive, and sustainable living environment. It must ensure both physical and digital security, adapt to occupant needs — particularly for people with disabilities —, assist with care and daily activities, while meeting strict energy efficiency and ecological objectives.
+Currently, systems show limitations in terms of security, occupant adaptation, and global energy management, leading to risks of unauthorized access, insufficient user assistance, and non-optimized energy consumption.
+
+Existing solutions provide partial functionalities in terms of security, assistance, and energy management, but struggle to ensure comprehensive protection against cyberattacks and physical intrusions, as well as full adaptation to the specific needs of people with disabilities.
+The implementation of the system will strengthen access security, protect information systems, improve occupant comfort and assistance, and reduce energy consumption while enhancing overall energy performance.
+
+The Smart Home will enable:
+- enhanced protection against physical and digital intrusions,
+
+- significant improvement in occupant autonomy and well-being,
+
+- effective support for care and daily activities,
+
+- sustainable reduction of energy consumption and environmental impact.
+The system will integrate advanced security mechanisms to prevent unauthorized access, occupant-adaptive features, daily task assistance tools, and energy management components focused on efficiency and the prioritized use of renewable energy sources.
+
+The Smart Home will integrate:
+
+- cybersecurity mechanisms to prevent hacking,
+
+- physical security devices to protect against burglaries,
+
+- dynamic adaptation functions based on occupant profiles and habits,
+
+- care and daily-life assistance modules,
+
+- optimized and eco-friendly energy management systems.
+- An occupant interacts with a secure and personalized environment adapted to their needs.
+
+- The system detects and blocks any unauthorized access attempts.
+
+- Daily tasks are facilitated through automated assistance.
+
+- Energy consumption is dynamically adjusted to maximize efficiency and minimize environmental impact.
+
+
+- The Smart Home automatically detects and blocks hacking attempts.
+
+- A burglary attempt is identified and triggers defense and alert mechanisms.
+
+- The environment adapts to the specific needs of a disabled occupant.
+
+- The Smart Home assists the user with daily care activities (reminders, support).
+
+- Energy consumption is adjusted in real time to minimize ecological impact.
+The system does not cover the full management of external energy infrastructures nor specialized human interventions in case of critical failure. It is limited to optimization and automated assistance within a predefined scope.
+
+The Smart Home does not replace human intervention services (law enforcement, medical staff) and does not guarantee absolute protection against all threats. Its role is limited to prevention, assistance, and optimization within a domestic context.
+The requirements originate from occupants, information system security managers, energy managers, and institutional decision-makers, in accordance with existing security and energy policies.
+
+The requirements originate from:
+
+- occupants, particularly people with disabilities,
+
+- cybersecurity and physical security experts,
+
+- healthcare and assistance professionals,
+
+- energy and environmental policy stakeholders.
+//------------------------------------
+// ENVIRONMENT book
+//
+// Template for requirement:
+//[[ex-keyword]] 
+//`{counter:environment}`
+// Requirement
+
+// {missing} [Corresponding Artifact]
+//------------------------------------
+== Environment
+
+NOTE: The Environment book describes the application domain and external context, physical or virtual (or a mix), in which the system will operate (see {Handbook}).
+
+- SHS (Smart Home System): Software and hardware system responsible for managing, monitoring, and assisting the smart environment.
+
+- Bed: Physical element of the domestic environment, not part of the SHS, but potentially interacting indirectly with it.
+
+- Local standards: Set of applicable rules and regulations defining the technical and legal constraints of the building.
+
+
+
+- MI (Smart Home): Domestic environment integrating intelligent systems interacting with physical elements.
+
+- Adaptable furniture: Furniture capable of changing its configuration to meet the specific needs of the user.
+
+- User profile: Set of characteristics related to the user’s physical, sensory, and cognitive abilities.
+
+- Adaptable bed: Furniture element capable of adjusting automatically or manually to the user’s needs.
+
+
+
+[[E1]]
+=== E.1 Glossary
+
+NOTE: Clear and precise definitions of all the vocabulary specific to the application domain, including technical terms, words from ordinary language used in a special meaning, and acronyms (see {Handbook}).
+
+WARNING: This chapter should not be empty (following the Glossary Principle, p.27 of the {handbook}).
+
+//---- Term
+[[e1-bps]]
+^`E.1.{counter:e1}`^  
+BPS:: Backup Power System. A system designed to automatically provide electrical power to predefined client systems when the Main Power Supply (MPS) fails.
+//----
+
+//---- Term
+[[e1-mps]]
+^`E.1.{counter:e1}`^  
+MPS:: Main Power Supply. The primary electrical power source for critical infrastructure installations.
+//----
+
+//---- Term
+[[e1-dgls]]
+^`E.1.{counter:e1}`^  
+DGLS:: Diesel Generator Load Sequencer. A control-command component responsible for coordinating generator startup and load repowering sequence.
+//----
+
+//---- Term
+[[e1-forml]]
+^`E.1.{counter:e1}`^  
+FORM-L:: A constraint-based formal language used to express system requirements and behaviors in a deterministic and analyzable form.
+//----
+
+//---- Term
+[[e1-stimulus]]
+^`E.1.{counter:e1}`^  
+StimuLus:: A simulation tool compatible with FORM-L, used to validate formal models and test scenarios.
+//----
+
+The system environment includes external physical elements, such as the bed, which are not part of the SHS but influence its operation. The SHS interacts with these elements only indirectly, through sensors or contextual information.
+
+The MI environment includes a set of adaptable and removable furniture elements, including the bed, which are physical components external to the intelligent system. These components are designed to interact with the MI in order to adapt to the user’s profile and specific needs.
+
+
+The system operation is constrained by local standards and the characteristics of the building in which it is deployed. These constraints may impact the installation, configuration, and usage of environmental components.
+
+The MI furniture must comply with accessibility, ergonomics, and building standards. The adaptation mechanisms of the bed and furniture must allow use without excessive physical effort, regardless of the user’s disability.
+It is assumed that physical elements of the environment, such as the bed, comply with local standards and are properly integrated into the building, allowing safe and reliable interaction with the SHS.
+
+It is assumed that the user has furniture compatible with the MI and that their profile is correctly defined in order to enable relevant adaptation of furniture, particularly the bed, to their daily needs.
+The physical characteristics of the bed and the regulatory constraints of the building may influence the behavior of the SHS, particularly by limiting certain functionalities or requiring specific system adaptations.
+
+The presence of adaptable furniture influences the MI behavior by enabling personalized interactions, facilitating daily actions (making the bed, tilting the bed, waking up), and improving user autonomy.
+The bed always remains an external element to the SHS and cannot be considered an internal system component. Additionally, the SHS must always comply with local standards and building constraints.
+
+Furniture, including the bed, always remains a physical element of the environment and not an internal component of the MI. Furthermore, the furniture must always be capable of adapting to the user’s profile and allowing effortless use, regardless of the user’s disability.
