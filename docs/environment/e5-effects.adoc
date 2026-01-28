@@ -1,36 +1,55 @@
 [[E5]]
 === E.5 Effects
 
-The physical characteristics of the bed and the regulatory constraints of the building may influence the behavior of the SHS, particularly by limiting certain functionalities or requiring specific system adaptations.
+NOTE: Elements and properties of the environment that are affected by the operation
+of the system (see {Handbook}).
 
-The presence of adaptable furniture influences the MI behavior by enabling personalized interactions, facilitating daily actions (making the bed, tilting the bed, waking up), and improving user autonomy.
+The operation of the Smart Home System (SHS) produces observable effects on its
+environment. These effects impact physical elements of the dwelling, environmental
+conditions, and external actors, without describing the internal implementation
+of the system itself.
+
 
 //---- Effect
-[[e5-furniture-state]]
+[[e5-furniture-reconfiguration]]
 ^`E.5.{counter:e5}`^  
-**Furniture Reconfiguration** :: The SHS can modify the physical geometry of `Adaptable furniture` (e.g., changing the height or inclination of the `Adaptable bed`) to match the user's needs.
+**Furniture Reconfiguration** :: The physical configuration of `Adaptable furniture`,
+including the `Adaptable bed`, may be modified as a result of system operation to
+better match the occupant’s needs.
 //----
 
-//---- Effect
-[[e5-access-control]]
-^`E.5.{counter:e5}`^  
-**Perimeter Modification** :: The SHS can change the state of physical barriers (locking/unlocking doors and windows) to prevent `Intrusions` or facilitate `Emergency Services` entry.
-//----
 
 //---- Effect
-[[e5-ambient-conditions]]
+[[e5-perimeter-state]]
 ^`E.5.{counter:e5}`^  
-**Environmental Adaptation** :: The SHS can alter the lighting levels, temperature, or visual signaling within the `MI` to assist the occupant or signal a danger.
+**Perimeter State Modification** :: The state of physical access points (doors,
+windows) in the MI may change (locked or unlocked), affecting the accessibility of
+the dwelling for occupants, intruders, or `Emergency Services`.
 //----
 
-//---- Effect
-[[e5-alert-propagation]]
-^`E.5.{counter:e5}`^  
-**External Notification** :: The SHS produces a communication effect by transmitting alarms and data to `Emergency Services` (E.2) or remote caregivers.
-//----
 
 //---- Effect
-[[e5-data-persistence]]
+[[e5-environmental-conditions]]
 ^`E.5.{counter:e5}`^  
-**Information Logging** :: Every interaction with the system results in a modification of the history logs, affecting the current state of the `User profile` and system audit trails.
+**Environmental Conditions Adaptation** :: Lighting levels, temperature, and visual
+or luminous signals within the MI environment may be altered, affecting occupant
+comfort and safety perception.
+//----
+
+
+//---- Effect
+[[e5-external-communication]]
+^`E.5.{counter:e5}`^  
+**External Communication** :: The system operation may result in the transmission of
+alerts, alarms, or contextual information to external actors such as `Emergency
+Services` or authorized caregivers.
+//----
+
+
+//---- Effect
+[[e5-information-persistence]]
+^`E.5.{counter:e5}`^  
+**Information Persistence** :: System operation leads to the creation or update of
+logs and records, affecting the informational state of the environment and enabling
+traceability and auditability.
 //----

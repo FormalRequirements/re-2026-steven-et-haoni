@@ -1,36 +1,55 @@
 [[E6]]
 === E.6 Invariants
 
-The bed always remains an external element to the SHS and cannot be considered an internal system component. Additionally, the SHS must always comply with local standards and building constraints.
+NOTE: Properties of the environment that the system’s operation must preserve
+under all conditions (see {Handbook}).
 
-Furniture, including the bed, always remains a physical element of the environment and not an internal component of the MI. Furthermore, the furniture must always be capable of adapting to the user’s profile and allowing effortless use, regardless of the user’s disability.
+The following invariants describe environmental properties that must remain true
+regardless of the operational state of the Smart Home System (SHS), including
+degraded modes or power failures. These invariants constrain the system behavior
+but are not enforced exclusively by it.
+
 
 //---- Invariant
-[[e6-bed-stability]]
+[[e6-bed-externality]]
 ^`E.6.{counter:e6}`^  
-**Mechanical Stability** :: The `Adaptable bed` (E.1) must never reach an inclination or height that compromises its structural stability or risks tipping over.
+**System Boundary Preservation** :: The `Adaptable bed` and all other furniture
+elements always remain part of the physical environment and must never be
+considered internal components of the SHS.
 //----
 
-//---- Invariant
-[[e6-emergency-exit]]
-^`E.6.{counter:e6}`^  
-**Emergency Egress** :: At least one primary exit of the `MI` must remain manually operable from the inside, even in the event of a total `SHS` or power failure.
-//----
 
 //---- Invariant
-[[e6-data-isolation]]
+[[e6-mechanical-stability]]
 ^`E.6.{counter:e6}`^  
-**Privacy Isolation** :: No personal data from the `User profile` (E.1) shall be accessible to the `External network` without active encryption and authorized credentials.
+**Mechanical Stability** :: The physical configuration of the `Adaptable bed` must
+never reach a position that compromises its structural stability or creates a risk
+of tipping over.
 //----
 
-//---- Invariant
-[[e6-no-contradiction]]
-^`E.6.{counter:e6}`^  
-**Command Consistency** :: The `SHS` shall never issue two contradictory physical commands simultaneously (e.g., "Open" and "Close" for the same motorized window).
-//----
 
 //---- Invariant
-[[e6-occupant-safety]]
+[[e6-emergency-egress]]
 ^`E.6.{counter:e6}`^  
-**Non-Harmful Motion** :: The movement of any `Adaptable furniture` (E.1) must automatically stop if a resistance or an obstacle is detected in its path.
+**Emergency Egress** :: At least one primary exit of the `MI` must always remain
+manually operable from inside the dwelling, including in the event of a total SHS
+or power failure.
+//----
+
+
+//---- Invariant
+[[e6-privacy-preservation]]
+^`E.6.{counter:e6}`^  
+**Privacy Preservation** :: Personal data related to the `User profile` (E.1) must
+never be exposed to external networks without appropriate protection mechanisms
+defined by applicable regulations.
+//----
+
+
+//---- Invariant
+[[e6-non-harmful-motion]]
+^`E.6.{counter:e6}`^  
+**Non-Harmful Motion** :: Any motion of `Adaptable furniture` must never result in
+physical harm to occupants; environmental conditions must ensure that motion stops
+when an obstacle or resistance is encountered.
 //----
