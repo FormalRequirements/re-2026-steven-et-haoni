@@ -1,6 +1,5 @@
 name: Generate Final Document
 
-# Déclenchement MANUEL uniquement (Bouton "Run workflow")
 on:
   workflow_dispatch:
 
@@ -9,33 +8,46 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Récupération du code source
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Installation de l'environnement Ruby
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0'
 
-      # 3. Installation des outils AsciiDoc
-      - name: Install Asciidoctor & PDF extensions
+      # Installation des outils nécessaires
+      - name: Install dependencies
         run: |
+          sudo apt-get update
+          sudo apt-get install -y dos2unix
           gem install asciidoctor
           gem install asciidoctor-pdf
           gem install rouge
 
-      # 4. Exécution du script de génération
-      - name: Run Generation Script
+      # Préparation et Exécution des scripts
+      - name: Run Scripts
         run: |
+          dos2unix initialize_project.sh
+          dos2unix generate_final_document.sh
+          
+          chmod +x initialize_project.sh
           chmod +x generate_final_document.sh
+          
+          echo "=== EXÉCUTION DE L'INITIALISATION ==="
+          ./initialize_project.sh
+          
+          echo "=== EXÉCUTION DE LA GÉNÉRATION ==="
           ./generate_final_document.sh
 
-      # 5. Sauvegarde du PDF généré
+          echo "=== VERIFICATION FICHIERS ==="
+          find . -name "*.pdf"
+
+      # Sauvegarde du PDF
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
           name: Final-Document-PDF
-          path: "*.pdf"
+          path: "**/*.pdf"
           retention-days: 5
+          if-no-files-found: error
