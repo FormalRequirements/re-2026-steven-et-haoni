@@ -1,0 +1,54 @@
+:title: Asciidoc Requirements Document
+:project: Maison Intelligente de Blagnac
+:version: 1.2
+:author: Stéven LEONARD, Haoni WU
+:email: X
+:organization: M2 ICE-LD, Université Toulouse 2 Jean Jaurès, France
+:icons: font
+:toc: macro
+//--------------------------- PDF version
+:doctype: book
+:method: pass:[<b>PEGS</b>]
+ifdef::pdf-backend[]
+:method: PEGS
+endif::[]
+
+= {title}
+{author},
+{version} -- {localdate}
+
+//--------------------------- Glossary & Definitions
+// URLS
+:HandbookPDF: https://link.springer.com/content/pdf/10.1007/978-3-031-06739-6.pdf
+
+
+// ICONS
+:check: icon:check-circle[]
+:nocheck: icon:times-circle[]
+:missing: icon:bug[]
+// GLOSSARY ENTRIES
+:Book: <<Book, Book>>
+:Catalog:  <<Catalog, Catalog>>
+
+
+
+[NOTE]
+====
+This document follows the requirements documentation structure presented in the {HandbookPDF}[Handbook of requirements and business analysis].
+====
+
+*CHANGELOG*
+
+//----------------------------------------------
+[cols="1,1,3",,options="header"]
+|===
+| Version | Date | Comment 
+//----------------------------------------------
+| 1.0    | 2026-01-28 | première release avec 1 branche par lettre : Project, Environnement, Goals, System
+| 1.1    | 2026-01-28 | merge des branches sur main
+| 1.2    | 2026-01-28 | ajout des fichiers de générations pdf
+//| _{version}_ | _{localdate}_
+|=== 
+//----------------------------------------------
+
+toc::[]
