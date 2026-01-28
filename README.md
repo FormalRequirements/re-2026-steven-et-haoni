@@ -43,6 +43,17 @@ Ce que ce script fait :
 - Installe d'autres extensions nécessaires
 
 
+## Exécuter les tests
+
+Pour exécuter les tests de structures :
+
+1. Vérifier d'être à la racine du projet
+2. Lancer le script de test :
+```bash
+./check_structure.sh
+```
+
+
 ## Générer le document
 
 Pour générer le document final:
