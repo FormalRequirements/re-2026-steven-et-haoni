@@ -1,0 +1,38 @@
+[[E4]]
+=== E.4 Assumptions
+
+NOTE: Properties of the environment that may be assumed, with the goal of facilitating the project and simplifying the system (see {Handbook}).
+
+It is assumed that physical elements of the environment, such as the bed, comply with local standards and are properly integrated into the building, allowing safe and reliable interaction with the SHS.
+
+It is assumed that the user has furniture compatible with the MI and that their profile is correctly defined in order to enable relevant adaptation of furniture, particularly the bed, to their daily needs.
+
+//---- Assumption
+[[e4-user-honesty]]
+^`E.4.{counter:e4}`^  
+**User Profile Accuracy** :: It is assumed that the data provided in the `User profile` (E.1) is accurate and reflects the real physical or cognitive needs of the occupant.
+//----
+
+//---- Assumption
+[[e4-sensor-reliability]]
+^`E.4.{counter:e4}`^  
+**Sensor Integrity** :: The SHS assumes that external sensors (detecting smoke, intrusion, or bed occupancy) are correctly installed and haven't been physically tampered with.
+//----
+
+//---- Assumption
+[[e4-mechanical-integrity]]
+^`E.4.{counter:e4}`^  
+**Furniture Maintenance** :: It is assumed that `Adaptable furniture` (E.1) is in good working order and that its mechanical safety features (e.g., emergency stop) are functional.
+//----
+
+//---- Assumption
+[[e4-network-availability]]
+^`E.4.{counter:e4}`^  
+**External Connectivity** :: While the system is resilient, it is assumed that the Internet network is available for remote alerts to `Emergency Services` (E.2).
+//----
+
+//---- Assumption
+[[e4-occupant-cooperation]]
+^`E.4.{counter:e4}`^  
+**Non-malicious Occupants** :: It is assumed that the legitimate occupants do not intentionally attempt to bypass the security protocols of the `MI`.
+//----

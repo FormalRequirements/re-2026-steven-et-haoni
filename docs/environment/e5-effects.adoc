@@ -1,0 +1,36 @@
+[[E5]]
+=== E.5 Effects
+
+The physical characteristics of the bed and the regulatory constraints of the building may influence the behavior of the SHS, particularly by limiting certain functionalities or requiring specific system adaptations.
+
+The presence of adaptable furniture influences the MI behavior by enabling personalized interactions, facilitating daily actions (making the bed, tilting the bed, waking up), and improving user autonomy.
+
+//---- Effect
+[[e5-furniture-state]]
+^`E.5.{counter:e5}`^  
+**Furniture Reconfiguration** :: The SHS can modify the physical geometry of `Adaptable furniture` (e.g., changing the height or inclination of the `Adaptable bed`) to match the user's needs.
+//----
+
+//---- Effect
+[[e5-access-control]]
+^`E.5.{counter:e5}`^  
+**Perimeter Modification** :: The SHS can change the state of physical barriers (locking/unlocking doors and windows) to prevent `Intrusions` or facilitate `Emergency Services` entry.
+//----
+
+//---- Effect
+[[e5-ambient-conditions]]
+^`E.5.{counter:e5}`^  
+**Environmental Adaptation** :: The SHS can alter the lighting levels, temperature, or visual signaling within the `MI` to assist the occupant or signal a danger.
+//----
+
+//---- Effect
+[[e5-alert-propagation]]
+^`E.5.{counter:e5}`^  
+**External Notification** :: The SHS produces a communication effect by transmitting alarms and data to `Emergency Services` (E.2) or remote caregivers.
+//----
+
+//---- Effect
+[[e5-data-persistence]]
+^`E.5.{counter:e5}`^  
+**Information Logging** :: Every interaction with the system results in a modification of the history logs, affecting the current state of the `User profile` and system audit trails.
+//----
