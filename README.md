@@ -71,11 +71,17 @@ Ce que ce script fait :
 
 ## Continuous Integration
 
-Il est possible de lancer le Workflow "Generate Final Document" dans les Actions Git :
+La CI se lance automatiquement à chaque commit, merge request sur la branche main.
+Sinon il est possible de lancer le Workflow "Generate Final Document" dans les Actions Git :
 
 1. Cela va faire les installations nécessaires à la génération du fichier pdf
 2. Lance les tests de structure du document (check_structure.sh)
 3. Génère le fichier pdf dans les Artifacts si les tests sont passés
+
+
+## Lien pour télécharger le PDF final
+
+[Télécharger le PDF du document final](https://github.com/FormalRequirements/re-2026-steven-et-haoni/actions/runs/21444260777/artifacts/5290008969)
 
 
 ## Organisation du développement
