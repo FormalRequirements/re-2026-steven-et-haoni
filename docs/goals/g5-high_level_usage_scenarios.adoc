@@ -1,27 +1,56 @@
 [[G5]]
-=== G.5 High-level usage scenarios
+=== G.5 High-Level Usage Scenarios
 
-NOTE: Fundamental usage paths through the system (see {Handbook}).
+NOTE: Fundamental usage paths through the system, expressed from the stakeholders’
+point of view (see {Handbook}).
 
 
 //---- Scenario
-==== ^`G.5.{counter:g5}`^ Automatic activation of backup power
+==== ^`G.5.{counter:g5}`^ Intrusion detection and alert
 
-- An occupant interacts with a secure and personalized environment adapted to their needs.
+When the occupant is away or asleep, the Smart Home System monitors access points
+and security sensors.
 
-- The system detects and blocks any unauthorized access attempts.
+If an intrusion or unauthorized access attempt is detected, the system blocks the
+access, triggers an alarm, and automatically notifies the appropriate emergency
+services.
 
-- Daily tasks are facilitated through automated assistance.
+The occupant is informed of the situation through the available notification
+channels.
+//----
 
-- Energy consumption is dynamically adjusted to maximize efficiency and minimize environmental impact.
+
+//---- Scenario
+==== ^`G.5.{counter:g5}`^ Emergency assistance after a fall
+
+An occupant moves within the dwelling under normal conditions.
+
+If the system detects a fall followed by a lack of response to confirmation requests,
+it automatically triggers an emergency procedure.
+
+Emergency medical services are contacted with the relevant information, and the
+occupant is assisted until help arrives.
+//----
 
 
-- The Smart Home automatically detects and blocks hacking attempts.
+//---- Scenario
+==== ^`G.5.{counter:g5}`^ Fire detection and evacuation assistance
 
-- A burglary attempt is identified and triggers defense and alert mechanisms.
+During normal operation, the Smart Home System continuously monitors environmental
+conditions such as smoke.
 
-- The environment adapts to the specific needs of a disabled occupant.
+When smoke is detected, the system alerts the occupants, assists evacuation through
+guidance mechanisms, and contacts the fire department to ensure rapid intervention.
+//----
 
-- The Smart Home assists the user with daily care activities (reminders, support).
 
-- Energy consumption is adjusted in real time to minimize ecological impact.
+//---- Scenario
+==== ^`G.5.{counter:g5}`^ Secure and adaptive daily living
+
+The occupant lives in a secure and personalized environment adapted to their profile
+and specific needs.
+
+The system prevents unauthorized access, assists the occupant with daily activities,
+and dynamically adjusts energy consumption to ensure safety, comfort, and reduced
+environmental impact.
+//----

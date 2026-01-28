@@ -1,10 +1,56 @@
 [[G1]]
 === G.1 Context and overall objectives
 
-NOTE: High-level view of the project: organizational context and reason for building a system (see {Handbook}).
+NOTE: High-level view of the project: organizational context and reason for building a system
+(see {Handbook}).
 
-WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome Principle_, p.27 of the {handbook}).
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome
+Principle_, p.27 of the {handbook}).
 
-The system aims to provide a secure, intelligent, and sustainable environment capable of protecting information systems, assisting occupants in their daily activities, and optimizing energy consumption while prioritizing renewable energy sources.
+The Smart Home (MI) aims to provide a safe, adaptive, and sustainable living environment.
+It must ensure both physical and digital security, adapt to occupant needs — particularly
+for people with disabilities — assist with care and daily activities, while meeting strict
+energy efficiency and ecological objectives.
 
-The Smart Home (MI) aims to provide a safe, adaptive, and sustainable living environment. It must ensure both physical and digital security, adapt to occupant needs — particularly for people with disabilities —, assist with care and daily activities, while meeting strict energy efficiency and ecological objectives.
+The Smart Home System (SHS) of the Maison Intelligente de Blagnac (MIB) is designed to
+support people living at home who are autonomous but potentially vulnerable. The system
+focuses on safety, security, and assistance while preserving occupants’ privacy and autonomy.
+
+From a security perspective, the Smart Home System must protect both the physical
+integrity of the dwelling and the safety of its occupants. Due to the high level of
+connectivity of the system, cybersecurity and data protection are also critical concerns.
+
+The overall objective of the SHS is to provide a secure living environment that prevents
+intrusions, detects dangerous situations, protects personal data, and facilitates rapid
+intervention by emergency services when required.
+
+
+//---- Goal Requirement
+[[gsec-intrusion]]
+^`G.SEC.{counter:gsec}`^  
+The Smart Home must be protected against intrusions.
+//----
+
+//---- Goal Requirement
+[[gsec-physical-safety]]
+^`G.SEC.{counter:gsec}`^  
+The Smart Home must ensure the physical safety of its occupants.
+//----
+
+//---- Goal Requirement
+[[gsec-data-protection]]
+^`G.SEC.{counter:gsec}`^  
+The Smart Home must protect occupants’ personal data.
+//----
+
+//---- Goal Requirement
+[[gsec-cyber-resilience]]
+^`G.SEC.{counter:gsec}`^  
+The Smart Home must be resilient to cyberattacks.
+//----
+
+//---- Goal Requirement
+[[gsec-emergency-intervention]]
+^`G.SEC.{counter:gsec}`^  
+The Smart Home must enable rapid intervention by emergency services in case of danger.
+//----
