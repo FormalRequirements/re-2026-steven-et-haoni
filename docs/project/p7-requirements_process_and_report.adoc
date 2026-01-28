@@ -9,18 +9,18 @@ NOTE: Method used for requirements engineering; structure of the report.
 |Item |Description
 
 |**Methodology**
-|**PEGS (Presentation, Environment, Goals, System)**
+|**PEGS (Presentation, Environment, Goals, System)** +
 The project follows the PEGS framework to structure the requirements. This ensures a clear separation between the problem domain (Goals/Environment) and the solution domain (System).
 
 |**Elicitation Source**
-|**"SysML by Example" (Papyrus)**
+|**"SysML by Example" (Papyrus)** +
 The primary source of requirements is the case study "Maison Intelligente de Blagnac". We extract the security-specific needs (intrusion, safety) from the general specification provided in the book.
 
 |**Modeling Standard**
-|**MBSE (Model-Based Systems Engineering)**
+|**MBSE (Model-Based Systems Engineering)** +
 Instead of just text, requirements are modeled as SysML elements (`<<requirement>>`) and linked to the system architecture, ensuring full traceability from need to solution.
 
 |**Report Format**
-|**AsciiDoc & PDF**
+|**AsciiDoc & PDF** +
 The final report is generated from AsciiDoc sources. It must include snapshots of the SysML diagrams (Use Case, BDD, IBD, State Machine) to illustrate the "System" section.
 |===

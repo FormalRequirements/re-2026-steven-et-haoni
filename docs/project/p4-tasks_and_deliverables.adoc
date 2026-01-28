@@ -9,28 +9,28 @@ NOTE: Work packages to be performed; deliverables (documents, models, software) 
 |Task / Activity |Deliverable
 
 |**T1. Requirements Engineering**
-|**SHS Security Requirements Specification**
-A structured list of functional and non-functional requirements (e.g., detection latency, alarm loudness) linked to the stakeholder needs.
-* _Format:_ SysML Requirement Diagram within Papyrus.
+|**SHS Security Requirements Specification** +
+A structured list of functional and non-functional requirements (e.g., detection latency, alarm loudness) linked to the stakeholder needs. +
+_Format:_ SysML Requirement Diagram within Papyrus.
 
 |**T2. Functional Modeling**
-|**Security Functional Analysis**
-A complete description of how the system interacts with users and intruders.
-* _Deliverable:_ Use Case Diagram (including actors like "Intruder", "Resident") and associated Sequence Diagrams for key scenarios (e.g., "Night intrusion").
+|**Security Functional Analysis** +
+A complete description of how the system interacts with users and intruders. +
+_Deliverable:_ Use Case Diagram (including actors like "Intruder", "Resident") and associated Sequence Diagrams for key scenarios (e.g., "Night intrusion").
 
 |**T3. Architectural Design**
-|**System Architecture Description**
-The definition of the logical and physical components (Sensors, Alarm Controller, Siren) and their interconnections.
-* _Deliverable:_ Block Definition Diagram (BDD) and Internal Block Diagram (IBD).
+|**System Architecture Description** +
+The definition of the logical and physical components (Sensors, Alarm Controller, Siren) and their interconnections. +
+_Deliverable:_ Block Definition Diagram (BDD) and Internal Block Diagram (IBD).
 
 |**T4. Behavior Specification**
-|**Alarm Logic Model**
-The precise behavior of the alarm system states (Armed, Disarmed, Triggered).
-* _Deliverable:_ State Machine Diagram demonstrating the transitions between security states.
+|**Alarm Logic Model** +
+The precise behavior of the alarm system states (Armed, Disarmed, Triggered). +
+_Deliverable:_ State Machine Diagram demonstrating the transitions between security states.
 
 |**T5. Final Packaging**
-|**Final Project Archive**
-The complete delivery containing:
-1. The **Papyrus Project** (files: `.di`, `.uml`, `.notation`).
+|**Final Project Archive** +
+The complete delivery containing : +
+1. The **Papyrus Project** (files: `.di`, `.uml`, `.notation`). +
 2. The **Generated Documentation** (PDF report derived from this AsciiDoc structure).
 |===
