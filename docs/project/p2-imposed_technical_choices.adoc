@@ -1,0 +1,35 @@
+[[P2]]
+=== P.2 Imposed technical choices
+
+[role="pegs"]
+NOTE: Hardware and software platform, system software and tools, programming languages.
+
+The following technical constraints are imposed by the project specifications and the educational context of the "SysML by Example" case study:
+
+[[p2-sysml]]
+^`P.2.{counter:p2}`^ **Modeling Language** +
+The project must use **SysML (Systems Modeling Language)** version 1.4 or higher. This standard is mandatory for all phases of analysis, design, and validation of the Smart Home System.
+
+[[p2-tool]]
+^`P.2.{counter:p2}`^ **Modeling Tool** +
+The use of **Eclipse Papyrus** is required. It serves as the primary IDE for creating diagrams (Requirements, Use Cases, Classes, State Machines). The project files must be compatible with the Papyrus EMF format.
+
+[[p2-impl]]
+^`P.2.{counter:p2}`^ **Implementation Language** +
+The software components for the gateway must be developed in **Java**. This choice ensures compatibility with the OSGi service platform used in the residential gateway environment.
+
+[[p2-arch]]
+^`P.2.{counter:p2}`^ **Software Architecture** +
+The system follows a **Service-Oriented Architecture (SOA)** based on the **OSGi Framework**. The security features must be implemented as modular bundles that can be dynamically started or stopped on the gateway.
+
+[[p2-hw]]
+^`P.2.{counter:p2}`^ **Target Hardware** +
+The system runs on a **Residential Gateway** (simulated or hardware like Raspberry Pi). This gateway acts as the central coordinator, communicating with sensors and external services.
+
+[[p2-periph]]
+^`P.2.{counter:p2}`^ **Peripherals & Protocols** +
+The security module interacts with home automation sensors (Motion, Door/Window contact). In the absence of physical hardware, these are simulated using standard protocols (abstraction of ZigBee/EnOcean).
+
+[[p2-doc]]
+^`P.2.{counter:p2}`^ **Documentation Format** +
+The final report and requirements documentation must be written in **AsciiDoc**. This ensures separation between content and formatting, allowing for professional PDF generation.

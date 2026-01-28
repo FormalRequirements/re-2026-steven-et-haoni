@@ -1,0 +1,35 @@
+[[P6]]
+=== P.6 Risk and mitigation analysis
+
+[role="pegs"]
+NOTE: Risks associated with the project; probability and severity; planned mitigation strategies.
+
+[cols="2,1,4", options="header"]
+|===
+|Risk |Severity |Mitigation Strategy
+
+|**Tooling Complexity** +
+Eclipse Papyrus has a steep learning curve and can be unstable (crashes, perspective issues).
+|**High**
+| Follow the "PapyrusSysMLinAction" tutorial step-by-step. +
+Save work frequently. +
+Use a version control system (Git) to recover previous versions in case of model corruption.
+
+|**Scope Creep** +
+Temptation to model non-security features (heating, lighting) which would dilute the focus and quality of the security module.
+|**Medium**
+| Strict enforcement of the "Security Only" rule defined in P.1. +
+Any non-security requirement must be marked as "Out of Scope" in the requirements diagram.
+
+|**Inconsistent Traceability**
+Disconnect between the initial requirements (Safety) and the technical implementation (Components).
+|**High**
+|Use SysML `<<satisfy>>` and `<<refine>>` relationships systematically. +
+Perform weekly reviews to ensure every Use Case covers a specific Requirement.
+
+|**Lack of Hardware knowledge**
+Difficulty in modeling specific sensor behaviors (e.g., false positives in motion detection).
+|**Low**
+|Abstraction: Model generic sensors (Boolean outputs) rather than complex physical physics. +
+Consult the "PapyrusSysMLinAction" hardware abstraction layer examples.
+|===
