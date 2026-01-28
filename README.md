@@ -50,7 +50,7 @@ Pour générer le document final:
 1. Vérifier que tous les documents se trouvent bien dans le dossier `docs/`
 2. Lancer le script de génération :
 ```bash
-./generate_final_document.sh
+source generate_final_document.sh
 ```
 
 Ce que ce script fait :
