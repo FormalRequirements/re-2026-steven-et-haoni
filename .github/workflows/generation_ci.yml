@@ -8,15 +8,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Récupération du code
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2. Setup Ruby
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0'
 
-      # Installation des outils nécessaires
+      # 3. Installation des dépendances
       - name: Install dependencies
         run: |
           sudo apt-get update
@@ -25,26 +27,36 @@ jobs:
           gem install asciidoctor-pdf
           gem install rouge
 
-      # Préparation et Exécution des scripts
-      - name: Run Scripts
+      # 4. Initialisation et Génération
+      - name: Prepare and Run Generation
         run: |
+          # Correction des fins de ligne
           dos2unix initialize_project.sh
           dos2unix generate_final_document.sh
+          dos2unix check_structure.sh
           
+          # Permissions
           chmod +x initialize_project.sh
           chmod +x generate_final_document.sh
+          chmod +x check_structure.sh
           
-          echo "=== EXÉCUTION DE L'INITIALISATION ==="
+          echo "=== 1. INITIALISATION ==="
           ./initialize_project.sh
           
-          echo "=== EXÉCUTION DE LA GÉNÉRATION ==="
+          echo "=== 2. GÉNÉRATION DU PDF ==="
           ./generate_final_document.sh
 
-          echo "=== VERIFICATION FICHIERS ==="
-          find . -name "*.pdf"
+      # 5. Test de conformité (Quality Gate)
+      # Si ce script renvoie une erreur (exit 1), le workflow S'ARRÊTE ICI.
+      - name: Verify Structure and Result
+        run: |
+          echo "=== 3. VÉRIFICATION DE LA QUALITÉ ==="
+          ./check_structure.sh
 
-      # Sauvegarde du PDF
+      # 6. Sauvegarde du PDF
+      # Cette étape ne s'exécutera QUE si toutes les étapes précédentes ont réussi.
       - name: Upload PDF Artifact
+        if: success()  # Condition explicite : Uniquement si succès
         uses: actions/upload-artifact@v4
         with:
           name: Final-Document-PDF
