@@ -16,9 +16,9 @@ When the system is in the "Armed" state, it shall continuously monitor data from
 
 [[s2-delay]]
 ^`S.2.{counter:s2}`^ **Entry/Exit Delay Management** +
-To prevent false alarms by authorized users, the system shall implement a configurable time delay (e.g., 30 seconds).
-* **Exit Delay:** Time allowed to leave the house after arming.
-* **Entry Delay:** Time allowed to disarm the system after opening the main door.
+To prevent false alarms by authorized users, the system shall implement a configurable time delay (e.g., 30 seconds). +
+**Exit Delay:** Time allowed to leave the house after arming. +
+**Entry Delay:** Time allowed to disarm the system after opening the main door.
 
 [[s2-alarm]]
 ^`S.2.{counter:s2}`^ **Local Alarm Triggering** +

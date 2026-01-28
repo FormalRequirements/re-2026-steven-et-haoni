@@ -8,9 +8,9 @@ To ensure the delivery of a functional security module within the project timeli
 
 [[s5-must]]
 ^`S.5.{counter:s5}`^ **Must Have (Critical)** +
-These features are non-negotiable. The system is useless without them.
-**Intrusion Detection:** Reliable reading of sensor states (Motion/Contact).
-**Local Alarm:** Triggering the siren upon confirmed intrusion.
+These features are non-negotiable. The system is useless without them. +
+**Intrusion Detection:** Reliable reading of sensor states (Motion/Contact). +
+**Local Alarm:** Triggering the siren upon confirmed intrusion. +
 **Arming/Disarming Logic:** The state machine (Armed/Disarmed) must work flawlessly with PIN validation.
 
 [[s5-should]]
