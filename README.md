@@ -45,7 +45,7 @@ chmod +x txt2qitab_csv.sh
 
 Lancer la conversion :
 ```bash
-./txt2qitab_csv.sh synthesis.txt qitab_import.csv
+./txt2qitab_csv.sh project-39-synthesis.txt qitab_import.csv
 ```
 
 Résultat :
