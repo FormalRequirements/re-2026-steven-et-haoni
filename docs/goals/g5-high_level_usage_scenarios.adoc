@@ -1,0 +1,27 @@
+[[G5]]
+=== G.5 High-level usage scenarios
+
+NOTE: Fundamental usage paths through the system (see {Handbook}).
+
+
+//---- Scenario
+==== ^`G.5.{counter:g5}`^ Automatic activation of backup power
+
+- An occupant interacts with a secure and personalized environment adapted to their needs.
+
+- The system detects and blocks any unauthorized access attempts.
+
+- Daily tasks are facilitated through automated assistance.
+
+- Energy consumption is dynamically adjusted to maximize efficiency and minimize environmental impact.
+
+
+- The Smart Home automatically detects and blocks hacking attempts.
+
+- A burglary attempt is identified and triggers defense and alert mechanisms.
+
+- The environment adapts to the specific needs of a disabled occupant.
+
+- The Smart Home assists the user with daily care activities (reminders, support).
+
+- Energy consumption is adjusted in real time to minimize ecological impact.

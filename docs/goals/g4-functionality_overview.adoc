@@ -1,0 +1,18 @@
+[[G4]]
+=== G.4 Functionality overview
+
+NOTE: Overview of the functions (behavior) of the system. Principal properties only (details are in the System book) (see {Handbook}).
+
+The system will integrate advanced security mechanisms to prevent unauthorized access, occupant-adaptive features, daily task assistance tools, and energy management components focused on efficiency and the prioritized use of renewable energy sources.
+
+The Smart Home will integrate:
+
+- cybersecurity mechanisms to prevent hacking,
+
+- physical security devices to protect against burglaries,
+
+- dynamic adaptation functions based on occupant profiles and habits,
+
+- care and daily-life assistance modules,
+
+- optimized and eco-friendly energy management systems.

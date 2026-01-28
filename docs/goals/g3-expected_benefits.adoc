@@ -1,0 +1,17 @@
+[[G3]]
+=== G.3 Expected Benefits
+
+NOTE: New processes, or improvements to existing processes, made possible by the project’s results (see {Handbook}).
+
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome Principle_, p.27 of the {handbook}).
+
+The implementation of the system will strengthen access security, protect information systems, improve occupant comfort and assistance, and reduce energy consumption while enhancing overall energy performance.
+
+The Smart Home will enable:
+- enhanced protection against physical and digital intrusions,
+
+- significant improvement in occupant autonomy and well-being,
+
+- effective support for care and daily activities,
+
+- sustainable reduction of energy consumption and environmental impact.
