@@ -44,9 +44,10 @@ This document follows the requirements documentation structure presented in the 
 |===
 | Version | Date | Comment 
 //----------------------------------------------
-| 1.0    | 2026-01-28 | première release avec 1 branche par lettre : Project, Environnement, Goals, System
-| 1.1    | 2026-01-28 | merge des branches sur main
+| 1.0    | 2026-01-21 | première release avec 1 branche par lettre : Project, Environnement, Goals, System
+| 1.1    | 2026-01-27 | merge des branches sur main
 | 1.2    | 2026-01-28 | ajout des fichiers de générations pdf
+| 2.0    | 2026-01-28 | ajout des tests et de la CI
 //| _{version}_ | _{localdate}_
 |=== 
 //----------------------------------------------

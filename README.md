@@ -69,6 +69,15 @@ Ce que ce script fait :
 - Génère les fichiers .adoc et .pdf dans le dossier de sorti `out/`
 
 
+## CI
+
+Il est possible de lancer le Workflow "Generate Final Document" dans les Actions Git :
+
+1. Cela va faire les installations nécessaires à la génération du fichier pdf
+2. Lance les tests de structure du document (check_structure.sh)
+3. Génère le fichier pdf dans les Artifacts si les tests sont passés
+
+
 ## Organisation du développement
 
 1. **Brainstorming et rafinement du sujet**
@@ -88,9 +97,14 @@ Ce que ce script fait :
 - Pour plus de lisibilité, nous avons fait 1 branche par élément de PEGS
 - Nous avons relu et vérifié les exigences générés par IA avant de les intégrés aux fichiers
 
-5. **Génération de fichiers et de la CI**
-- Ajout des fichiers de génération .adoc et .pdf
-- Ajout d'un fichier pour la CI
+4. **BIS Rédiger les fichiers d'exigences avec ELISA**
+- Nous avons essayé de générer des exigences avec ELISA, mais nous n'avons pas eu le temps d'aboutir cette recherche
+- Il est possible de générer un fichier CSV avec les exigences générées par ELISA, cela est expliqué dans le README de la branche ELISA
+
+5. **Génération de fichiers, test et CI**
+- Ajout d'un fichier de génération .adoc et .pdf (generate_final_document.sh)
+- Ajout d'un fichier d'exécution des tests (check_structure.sh)
+- Ajout d'un fichier pour la CI (generation_ci.yml)
 
 6. **Rendu final**
 - Générer plusieurs versions du document final
