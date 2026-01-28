@@ -1,0 +1,8 @@
+[[G6]]
+=== G.6 Limitations and exclusions
+
+NOTE: Aspects that the system need not address (see {Handbook}).
+
+The system does not cover the full management of external energy infrastructures nor specialized human interventions in case of critical failure. It is limited to optimization and automated assistance within a predefined scope.
+
+The Smart Home does not replace human intervention services (law enforcement, medical staff) and does not guarantee absolute protection against all threats. Its role is limited to prevention, assistance, and optimization within a domestic context.

@@ -1,0 +1,18 @@
+[[G7]]
+=== G.7 Stakeholders and requirements sources
+
+NOTE: Groups of people who can affect the project or be affected by it, and other places to consider for information about the project and system (see {Handbook}).
+
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome Principle_, p.27 of the {handbook}).
+
+The requirements originate from occupants, information system security managers, energy managers, and institutional decision-makers, in accordance with existing security and energy policies.
+
+The requirements originate from:
+
+- occupants, particularly people with disabilities,
+
+- cybersecurity and physical security experts,
+
+- healthcare and assistance professionals,
+
+- energy and environmental policy stakeholders.

@@ -1,0 +1,10 @@
+[[G1]]
+=== G.1 Context and overall objectives
+
+NOTE: High-level view of the project: organizational context and reason for building a system (see {Handbook}).
+
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome Principle_, p.27 of the {handbook}).
+
+The system aims to provide a secure, intelligent, and sustainable environment capable of protecting information systems, assisting occupants in their daily activities, and optimizing energy consumption while prioritizing renewable energy sources.
+
+The Smart Home (MI) aims to provide a safe, adaptive, and sustainable living environment. It must ensure both physical and digital security, adapt to occupant needs — particularly for people with disabilities —, assist with care and daily activities, while meeting strict energy efficiency and ecological objectives.

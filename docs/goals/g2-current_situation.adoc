@@ -1,0 +1,11 @@
+[[G2]]
+=== G.2 Current Situation
+
+NOTE: Current state of processes to be addressed by the project and the resulting system (see {Handbook}).
+
+==== Evaluation of current practices
+
+
+Currently, systems show limitations in terms of security, occupant adaptation, and global energy management, leading to risks of unauthorized access, insufficient user assistance, and non-optimized energy consumption.
+
+Existing solutions provide partial functionalities in terms of security, assistance, and energy management, but struggle to ensure comprehensive protection against cyberattacks and physical intrusions, as well as full adaptation to the specific needs of people with disabilities.
