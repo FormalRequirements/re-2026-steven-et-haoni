@@ -1,11 +1,58 @@
 [[G2]]
 === G.2 Current Situation
 
-NOTE: Current state of processes to be addressed by the project and the resulting system (see {Handbook}).
+NOTE: Current state of processes to be addressed by the project and the resulting system
+(see {Handbook}).
 
 ==== Evaluation of current practices
 
+Currently, smart home and traditional home systems show limitations in terms of
+security, occupant assistance, and global energy management. These limitations lead
+to risks such as unauthorized access, insufficient user support, and non-optimized
+energy consumption.
 
-Currently, systems show limitations in terms of security, occupant adaptation, and global energy management, leading to risks of unauthorized access, insufficient user assistance, and non-optimized energy consumption.
+Existing solutions provide partial functionalities related to security, assistance,
+and energy management, but they fail to ensure comprehensive protection against
+both cyberattacks and physical intrusions. Moreover, they do not fully address the
+specific needs of people with disabilities.
 
-Existing solutions provide partial functionalities in terms of security, assistance, and energy management, but struggle to ensure comprehensive protection against cyberattacks and physical intrusions, as well as full adaptation to the specific needs of people with disabilities.
+In traditional homes, security mainly relies on mechanical locks, human vigilance,
+and isolated alarm systems. These mechanisms provide limited protection and often
+require manual intervention.
+
+For vulnerable occupants, the absence of continuous monitoring may result in delayed
+assistance in the event of incidents such as falls, intrusions, or fires. In addition,
+most existing homes lack integrated mechanisms to control access to personal data or
+to prevent cyber threats.
+
+This situation highlights the need for an intelligent system capable of combining
+physical security, occupant safety, and cybersecurity in a unified and automated
+manner.
+
+
+//---- Current Situation Finding
+[[g2-security-limitations]]
+^`G.2.{counter:g2}`^  
+Current housing solutions provide insufficient protection against physical intrusions
+and cyberattacks.
+//----
+
+//---- Current Situation Finding
+[[g2-assistance-limitations]]
+^`G.2.{counter:g2}`^  
+Existing systems do not adequately assist vulnerable occupants during emergency
+situations such as falls or fires.
+//----
+
+//---- Current Situation Finding
+[[g2-manual-dependency]]
+^`G.2.{counter:g2}`^  
+Current security mechanisms rely heavily on manual intervention and human vigilance.
+//----
+
+//---- Current Situation Finding
+[[g2-data-protection-gap]]
+^`G.2.{counter:g2}`^  
+Traditional and existing smart homes lack integrated mechanisms for personal data
+access control and cybersecurity protection.
+//----

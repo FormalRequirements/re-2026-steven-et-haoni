@@ -1,8 +1,49 @@
 [[G6]]
-=== G.6 Limitations and exclusions
+=== G.6 Limitations and Exclusions
 
 NOTE: Aspects that the system need not address (see {Handbook}).
 
-The system does not cover the full management of external energy infrastructures nor specialized human interventions in case of critical failure. It is limited to optimization and automated assistance within a predefined scope.
+The following limitations and exclusions define the boundaries of the Smart Home
+System (SHS). They are intended to clarify the scope of the system and manage
+stakeholder expectations.
 
-The Smart Home does not replace human intervention services (law enforcement, medical staff) and does not guarantee absolute protection against all threats. Its role is limited to prevention, assistance, and optimization within a domestic context.
+
+//---- Limitation / Exclusion
+[[g6-no-external-infra]]
+^`G.6.{counter:g6}`^  
+The Smart Home System does not manage external energy infrastructures or public
+utility networks beyond local monitoring and optimization.
+//----
+
+
+//---- Limitation / Exclusion
+[[g6-no-human-replacement]]
+^`G.6.{counter:g6}`^  
+The Smart Home System does not replace human intervention services such as law
+enforcement, firefighters, or medical personnel.
+//----
+
+
+//---- Limitation / Exclusion
+[[g6-no-absolute-protection]]
+^`G.6.{counter:g6}`^  
+The Smart Home System does not guarantee absolute protection against all physical
+or cyber threats; its role is limited to prevention, detection, and assistance.
+//----
+
+
+//---- Limitation / Exclusion
+[[g6-no-physical-intervention]]
+^`G.6.{counter:g6}`^  
+The Smart Home System does not physically intervene during emergency situations;
+it only detects events and triggers alerts or guidance mechanisms.
+//----
+
+
+//---- Limitation / Exclusion
+[[g6-device-dependency]]
+^`G.6.{counter:g6}`^  
+The correct operation of the Smart Home System depends on the availability and
+proper functioning of physical devices such as sensors, detectors, and network
+infrastructure.
+//----

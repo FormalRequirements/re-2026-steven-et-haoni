@@ -1,17 +1,53 @@
 [[G3]]
 === G.3 Expected Benefits
 
-NOTE: New processes, or improvements to existing processes, made possible by the project’s results (see {Handbook}).
+NOTE: New processes, or improvements to existing processes, made possible by the
+project’s results (see {Handbook}).
 
-WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome Principle_, p.27 of the {handbook}).
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome
+Principle_, p.27 of the {handbook}).
 
-The implementation of the system will strengthen access security, protect information systems, improve occupant comfort and assistance, and reduce energy consumption while enhancing overall energy performance.
+The implementation of the Smart Home System is expected to provide significant
+improvements in terms of security, occupant assistance, and energy efficiency.
+These benefits directly address the limitations identified in the current situation
+(see G.2).
 
-The Smart Home will enable:
-- enhanced protection against physical and digital intrusions,
+By integrating physical security, cybersecurity, and occupant safety mechanisms
+within a single intelligent system, the Smart Home enhances both protection and
+quality of life for its occupants.
 
-- significant improvement in occupant autonomy and well-being,
 
-- effective support for care and daily activities,
+//---- Expected Benefit
+[[g3-benefit-security]]
+^`G.3.{counter:g3}`^  
+Improved protection against physical intrusions and unauthorized digital access,
+resulting in a higher overall level of dwelling security.
+//----
 
-- sustainable reduction of energy consumption and environmental impact.
+//---- Expected Benefit
+[[g3-benefit-emergency]]
+^`G.3.{counter:g3}`^  
+Reduced response time of emergency services through automated detection and alerting
+mechanisms, minimizing risks for occupants.
+//----
+
+//---- Expected Benefit
+[[g3-benefit-data]]
+^`G.3.{counter:g3}`^  
+Increased trust in the system through the protection of personal and health-related
+data and compliance with applicable regulations.
+//----
+
+//---- Expected Benefit
+[[g3-benefit-autonomy]]
+^`G.3.{counter:g3}`^  
+Enhanced occupant autonomy, comfort, and well-being through continuous assistance
+and adaptive support in daily activities.
+//----
+
+//---- Expected Benefit
+[[g3-benefit-energy]]
+^`G.3.{counter:g3}`^  
+Reduced energy consumption and environmental impact through intelligent monitoring
+and optimization of energy usage.
+//----

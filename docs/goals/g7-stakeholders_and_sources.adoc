@@ -1,18 +1,86 @@
 [[G7]]
-=== G.7 Stakeholders and requirements sources
+=== G.7 Stakeholders and Requirements Sources
 
-NOTE: Groups of people who can affect the project or be affected by it, and other places to consider for information about the project and system (see {Handbook}).
+NOTE: Groups of people who can affect the project or be affected by it, and other
+places to consider for information about the project and system (see {Handbook}).
 
-WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome Principle_, p.27 of the {handbook}).
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome
+Principle_, p.27 of the {handbook}).
 
-The requirements originate from occupants, information system security managers, energy managers, and institutional decision-makers, in accordance with existing security and energy policies.
+The requirements of the Smart Home System originate from multiple categories of
+stakeholders and authoritative sources. These stakeholders express needs related
+to security, safety, assistance, privacy, and energy efficiency, while external
+sources provide regulatory and contextual constraints.
 
-The requirements originate from:
+==== Stakeholders
 
-- occupants, particularly people with disabilities,
+//---- Stakeholder
+[[g7-stakeholder-occupants]]
+^`G.7.{counter:g7}`^  
+**Occupants** – Primary users of the Smart Home, including people with disabilities
+or reduced autonomy, whose safety, privacy, and daily assistance needs are central
+to the system design.
+//----
 
-- cybersecurity and physical security experts,
+//---- Stakeholder
+[[g7-stakeholder-emergency]]
+^`G.7.{counter:g7}`^  
+**Emergency services** – Police, firefighters, and medical services that may interact
+with the system during critical situations and rely on timely and accurate alerts.
+//----
 
-- healthcare and assistance professionals,
+//---- Stakeholder
+[[g7-stakeholder-admin]]
+^`G.7.{counter:g7}`^  
+**System administrators and maintenance personnel** – Responsible for configuration,
+maintenance, supervision, and long-term reliability of the Smart Home System.
+//----
 
-- energy and environmental policy stakeholders.
+//---- Stakeholder
+[[g7-stakeholder-security]]
+^`G.7.{counter:g7}`^  
+**Cybersecurity and physical security experts** – Provide expertise to define and
+validate protection mechanisms against digital and physical threats.
+//----
+
+//---- Stakeholder
+[[g7-stakeholder-health]]
+^`G.7.{counter:g7}`^  
+**Healthcare and assistance professionals** – Contribute requirements related to
+monitoring, care assistance, and emergency handling for vulnerable occupants.
+//----
+
+//---- Stakeholder
+[[g7-stakeholder-regulators]]
+^`G.7.{counter:g7}`^  
+**Regulatory authorities** – Ensure compliance with safety, security, data protection,
+and energy regulations.
+//----
+
+
+==== Requirements Sources
+
+//---- Source
+[[g7-source-mib]]
+^`G.7.{counter:g7}`^  
+Initial specifications and documentation of the Maison Intelligente de Blagnac (MIB).
+////
+
+//---- Source
+[[g7-source-safety-regs]]
+^`G.7.{counter:g7}`^  
+Applicable safety and security regulations governing residential environments.
+////
+
+//---- Source
+[[g7-source-gdpr]]
+^`G.7.{counter:g7}`^  
+Data protection regulations, including the General Data Protection Regulation (GDPR).
+////
+
+//---- Source
+[[g7-source-feedback]]
+^`G.7.{counter:g7}`^  
+Feedback from stakeholders, users, and similar smart home systems deployed in
+comparable contexts.
+////

@@ -1,18 +1,59 @@
 [[G4]]
-=== G.4 Functionality overview
+=== G.4 Functionality Overview
 
-NOTE: Overview of the functions (behavior) of the system. Principal properties only (details are in the System book) (see {Handbook}).
+NOTE: Overview of the functions (behavior) of the system. Principal properties only
+(details are specified in the System book) (see {Handbook}).
 
-The system will integrate advanced security mechanisms to prevent unauthorized access, occupant-adaptive features, daily task assistance tools, and energy management components focused on efficiency and the prioritized use of renewable energy sources.
+The Smart Home System integrates a set of high-level functionalities designed to
+ensure security, occupant safety, assistance in daily activities, and efficient
+energy management. These functionalities enable the benefits described in G.3 and
+address the issues identified in G.2.
 
-The Smart Home will integrate:
+The system combines physical security, cybersecurity, adaptive assistance, and
+energy optimization within a unified intelligent environment.
 
-- cybersecurity mechanisms to prevent hacking,
 
-- physical security devices to protect against burglaries,
+//---- High-Level Functionality
+[[g4-security-prevention]]
+^`G.4.{counter:g4}`^  
+Prevent unauthorized access through integrated physical and digital security
+mechanisms.
+//----
 
-- dynamic adaptation functions based on occupant profiles and habits,
+//---- High-Level Functionality
+[[g4-access-control]]
+^`G.4.{counter:g4}`^  
+Control access to the dwelling using identification and authorization mechanisms.
+//----
 
-- care and daily-life assistance modules,
+//---- High-Level Functionality
+[[g4-hazard-detection]]
+^`G.4.{counter:g4}`^  
+Detect dangerous situations such as intrusions, fires, or accidental falls.
+//----
 
-- optimized and eco-friendly energy management systems.
+//---- High-Level Functionality
+[[g4-emergency-alerting]]
+^`G.4.{counter:g4}`^  
+Automatically alert emergency services when critical situations are detected.
+//----
+
+//---- High-Level Functionality
+[[g4-data-protection]]
+^`G.4.{counter:g4}`^  
+Protect personal and system data by ensuring secure access to system services.
+//----
+
+//---- High-Level Functionality
+[[g4-adaptive-assistance]]
+^`G.4.{counter:g4}`^  
+Provide adaptive assistance and support for occupants based on their profiles,
+habits, and specific needs.
+//----
+
+//---- High-Level Functionality
+[[g4-energy-management]]
+^`G.4.{counter:g4}`^  
+Monitor and optimize energy consumption while prioritizing the use of renewable
+energy sources.
+//----
